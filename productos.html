@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>QuilPc</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- mi css-->
+    <link rel="stylesheet" href="style.css">
+  
+  </head>
+  <body>
+    <!-- inicia nav -->
+    <nav class="navbar navbar-expand-md navbar-light bg-azul" id="botonera">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="logo QuilPc">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="arma_tu_pc.html">Arma tu pc</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Procesadores</a></li>
+                  <li><a class="dropdown-item" href="#">Perifericos</a></li>
+                  <li><a class="dropdown-item" href="combos.html">Combos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="productos.html">Todos los prodcutos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <a href="Carrito.html">
+              <img src="img/carrito.png" alt="Logo del carrito de la tienda"
+              class="carrito__img--sm">
+         </a>
+          </div>
+        </div>
+      </nav>
+     <!-- ends nav -->
+
+     <!-- productos-->
+    <main>
+      <div class="container-fluid py-3">
+        <h1>Productos</h1>
+        <div class="row">
+          <figure class="col-sm-12 col-md-6 col-lg-3"> 
+            <img src="img/producto_astroa50.jpg" alt="foto producto 1" class="w-100 img-thumbail">
+            <figcaption> Auriculares inalambricos astro a50</figcaption>
+            <p class="price">$40.000,00</p>
+            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
+          </figure> 
+          
+          <figure class="col-sm-12 col-md-6 col-lg-3"> 
+            <img src="img/producto_procesador.jpg" alt="foto producto 2" class="w-100 img-thumbail">
+            <figcaption> Procesador Ryzen 5950x</figcaption>
+            <p class="price">$50.000,00</p>
+            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
+          </figure> 
+          
+          <figure class="col-sm-12 col-md-6 col-lg-3"> 
+            <img src="img/producto_grafica.jpg" alt="foto producto 3" class="w-100 img-thumbail">
+            <figcaption> Tarjeta grafica 3090</figcaption>
+            <p class="price">$350.000,00</p>
+            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
+          </figure> 
+          <figure class="col-sm-12 col-md-6 col-lg-3"> 
+            <img src="img/producto_ssd.jpg"foto producto 3" class="w-100 img-thumbail">
+            <figcaption> SSD Kingston 500gb</figcaption>
+            <p class="price">$10.000,00</p>
+            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
+          </figure> 
+          <figure class="col-sm-12 col-md-6 col-lg-3"> 
+            <img src="img/producto_gabinete.jpg" alt="foto producto 3" class="w-100 img-thumbail">
+            <figcaption> Gabinete Xpg</figcaption>
+            <p class="price">$20.000,00</p>
+            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
+          </figure>
+          <figure class="col-sm-12 col-md-6 col-lg-3"> 
+            <img src="img/producto_mother.jpg" alt="foto producto 3" class="w-100 img-thumbail">
+            <figcaption> Motherboard rog</figcaption>
+            <p class="price">$50.000,00</p>
+            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
+          </figure> 
+        </div>  
+      </div> <!-- ends productos-->
+     
+     <!-- formulario-->
+      <section class="py-4 bg-azul">
+        <div class="container-fluid">
+           <div class="row">
+            <article class="col-sm-12 col-md-12 col-lg-8">
+              <form>
+                <div class="mb-3">
+                  <div id="emailHelp" class="form-text">Dejanos tu mail para recibir las mejores ofertas</div>
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </article>
+           </div>
+        </div>
+     </section>
+<!-- ends formulario-->
+    </main>
+
+     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!--footer-->  
+    <footer>
+      <div class="row pie">
+        <div class="card border-dark mb-3 contacto" style="max-width: 18rem;">
+          <div class="card-header">Contacto</div>
+          <div class="card-body text-dark">
+            <p>Telefono: 4235-6907</p>
+            <p>Whatsapp: +54 11-4569-7028</p>
+            <p>Email: quilpc@gmail.com</p>
+          </div>
+        </div>
+        <div class="card border-dark mb-3 seguinos" style="max-width: 18rem;">
+          <div class="card-header">Seguinos</div>
+          <div class="card-body text-dark">
+            <div class="icon_twitter">
+              <a href="https://twitter.com/">
+                <img src="img/twitter.png" alt="logo de twitter"
+                class="pie__icon--sm">
+              </a>
+              <p>@QuilPc</p>
+            </div>
+            <div class="icon_instagram">
+              <a href="https://instagram.com">
+                <img src="img/instagram.png" alt="logo de instagram"
+                class="pie__icon--sm">
+             </a>
+              <p>@QuilPc</p>
+            </div>
+            <div class="icon_facebook">
+             <a href="https://www.facebook.com/">
+                <img src="img/facebook.png" alt="logo de facebook" 
+                class="pie__icon--sm">
+             </a> 
+              <p>@QuilPc</p>
+            </div>  
+          </div>
+        </div> 
+        <div class="card border-dark mb-3 mapa" style="max-width: 18rem;">
+          <div class="card-header">Donde estamos?</div>
+          <div class="card-body text-dark">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0782380427413!2d-58.37629758419382!3d-34.60218306492499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacce552a111%3A0x95df23451e1e51fd!2sSan%20Mart%C3%ADn%20500%2C%20C1054%20CABA!5e0!3m2!1ses-419!2sar!4v1655505315710!5m2!1ses-419!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>   
+    </footer>
+  </body>
+</html>
