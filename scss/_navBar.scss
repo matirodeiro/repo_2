@@ -1,0 +1,21 @@
+#botonera{
+    background-color: #1d5e69;
+    font-family: $fontMain;
+    .btn-azul{
+          background-color: #1d5e69;
+          color: white;
+          p{
+            font-family: 'Roboto', sans-serif;
+            color: black;
+            font-size: $textSm;
+            line-height: 1.4rem;
+          }
+  
+    
+    }
+            img{
+                width: 100px;
+                height: auto;
+            }
+          
+}

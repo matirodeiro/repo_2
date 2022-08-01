@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Roboto+Mono&family=Roboto:ital,wght@0,300;1,300&display=swap");
+#botonera {
+  background-color: #1d5e69;
+  font-family: "Roboto", sans-serif;
+}
+#botonera .btn-azul {
+  background-color: #1d5e69;
+  color: white;
+}
+#botonera .btn-azul p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 1em;
+  line-height: 1.4rem;
+}
+#botonera img {
+  width: 100px;
+  height: auto;
+}
+
+.pie {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-around;
+}
+.pie .pie__icon--sm {
+  width: 40px;
+}
+.pie .contacto {
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  background-color: #1d5e69;
+}
+.pie .seguinos {
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  background-color: #1d5e69;
+}
+.pie .mapa {
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  background-color: #1d5e69;
+}
+
+.bg-azul {
+  background-color: #1e7f91;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Mono", monospace;
+  color: #1B1B1B;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 1em;
+  line-height: 1.4rem;
+}
+
+/*# sourceMappingURL=style.css.map */

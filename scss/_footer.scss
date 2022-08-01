@@ -1,0 +1,28 @@
+.pie{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-around;
+    .pie__icon--sm{
+        width: 40px;   
+       }
+       .contacto{
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        background-color: $mainColor;
+    }
+       .seguinos{
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        background-color: $mainColor;
+    }
+       .mapa{
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        background-color: $mainColor;
+    }
+}
