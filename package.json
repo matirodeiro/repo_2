@@ -1,12 +1,11 @@
 {
   "name": "repo_2---copia",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass",
-		"sass:watch": "sass --watch scss/style.scss  css/style.css"
+    "sass:watch": "sass --watch scss/style.scss  css/style.css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,8 @@
   },
   "homepage": "https://github.com/matirodeiro/repo_2#readme",
   "dependencies": {
-    "sass": "^1.54.0"
-  }
+    "sass": "^1.54.5"
+  },
+  "devDependencies": {},
+  "description": ""
 }

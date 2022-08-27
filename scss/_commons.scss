@@ -1,0 +1,64 @@
+.card_marcas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .marcas {
+    height: 270px;
+    width: 250px;
+    box-shadow: 0 0 7px #111;
+    margin: 30px 30px;
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  .marcas:hover {
+    box-shadow: 5px 5px 20px #111;
+    transform: translateY(-3%);
+  }
+  
+  .contenedor .marcas {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 170px;
+  }
+
+  .marca img {
+    margin: auto;
+    display: block;
+  }
+
+  .contenedor .razer img {
+    height: 230px;
+    width: 288px;
+  }
+  
+  .contenedor .amd img {
+    height: 230px;
+    width: 288px;
+  }
+
+  .contenedor .astro img {
+    height: 230px;
+    width: 288px;
+  }
+
+  .contenedor .kingston img {
+    height: 230px;
+    width: 288px;
+  }
+
+  .contenedor .nvidia img {
+    height: 230px;
+    width: 288px;
+  }
+
+  .card-body p {
+    border: solid 1px #111;
+    background-color: #111;
+  }
+
+  .card-text{
+    color: white;
+  }

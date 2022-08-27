@@ -1,0 +1,150 @@
+#productos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .conte_parent{
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+      flex-wrap:wrap;
+      
+    }
+    .conte{
+        height: 510px;
+        width: 350px;
+        box-shadow:0 0 7px #111 ;
+        margin: 30px 30px;
+        cursor: default;
+        transition: all 400ms ease;
+    }
+    .conte:hover{
+        box-shadow: 5px 5px 20px #111;
+        transform: translateY(-3%);
+}
+    .conte .card{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 170px;
+    }
+    .card img{
+        margin: auto;
+        display: block;
+    }
+    .conte .astroa50 img{
+        height: 330px;
+        width: 300px;
+    }
+    .conte .astroa50{
+         background-color: #111;
+    }
+    .conte .gabinete-gamer{
+        background-color: #111;
+    }
+    .conte .tarjeta-grafica{
+        background-color:#111;
+    }
+    .conte .gabinete-gamer img{
+        height: 330px;
+        width: 230px;
+    }
+    .conte .tarjeta-grafica img{
+        height: 330px;
+        width: 300px;
+    }
+    .conte .mother{
+        background-color:#111;
+    }
+
+   .conte .mother img{
+    height: 330px;
+    width: 300px;
+   }
+   .conte .procesador{
+        background-color:#111;
+    }
+   .conte .procesador img{
+    height: 330px;
+    width: 300px;
+   }
+   .conte .disco-ssd{
+        background-color:#111;
+    }
+    .conte .disco-ssd img{
+        height: 330px;
+        width: 300px;
+    }
+    .conte .mouse{
+        background-color:#111;
+    }
+    .conte .mouse img{
+        height: 330px;
+        width: 300px;
+    }
+    .conte .combo1{
+        background-color:#111;
+    }
+    .conte .combo1 img{
+        height: 330px;
+        width: 300px;
+    }
+    .conte .combo2{
+        background-color:#111;
+    }
+    .conte .combo2 img{
+        height: 330px;
+        width: 300px;
+    }
+    .conte .combo3{
+        background-color:#111;
+    }
+    .conte .combo3 img{
+        height: 330px;
+        width: 300px;
+    }
+
+    .informacion{
+        height: 80px;
+        width: 100%; 
+    }
+    .informacion h1{
+        font-family: sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+        color: #333;
+        margin-bottom: -1px;
+    }
+    .informacion p{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: .9em;
+        color: #555;
+    }
+    .informacion a{
+        border: solid 1px #111;
+    }
+    .precio {
+        height:50px;
+        width: 85%;
+        margin: auto;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box-precio{
+        width: 80px;
+    }
+     .precio1{
+        color: red;
+        font-size: .8em;
+    }
+    .precio .precio2{
+        font-size: 1.5em;
+    }
+    .shopping{
+        font-size: 1.5em;
+        color: #555;
+    }
+    

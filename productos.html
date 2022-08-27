@@ -38,6 +38,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Procesadores</a></li>
                   <li><a class="dropdown-item" href="#">Perifericos</a></li>
+                  <li><a class="dropdown-item" href="marcas.html">Marcas</a></li>
                   <li><a class="dropdown-item" href="combos.html">Combos</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="productos.html">Todos los prodcutos</a></li>
@@ -61,78 +62,143 @@
      <!-- ends nav -->
 
      <!-- productos-->
-    <main>
-      <div class="container-fluid py-3">
-        <h1>Productos</h1>
-        <div class="row">
-          <figure class="col-sm-12 col-md-6 col-lg-3"> 
-            <img src="img/producto_astroa50.jpg" alt="foto producto 1" class="w-100 img-thumbail">
-            <figcaption> Auriculares inalambricos astro a50</figcaption>
-            <p class="price">$40.000,00</p>
-            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
-          </figure> 
-          
-          <figure class="col-sm-12 col-md-6 col-lg-3"> 
-            <img src="img/producto_procesador.jpg" alt="foto producto 2" class="w-100 img-thumbail">
-            <figcaption> Procesador Ryzen 5950x</figcaption>
-            <p class="price">$50.000,00</p>
-            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
-          </figure> 
-          
-          <figure class="col-sm-12 col-md-6 col-lg-3"> 
-            <img src="img/producto_grafica.jpg" alt="foto producto 3" class="w-100 img-thumbail">
-            <figcaption> Tarjeta grafica 3090</figcaption>
-            <p class="price">$350.000,00</p>
-            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
-          </figure> 
-          <figure class="col-sm-12 col-md-6 col-lg-3"> 
-            <img src="img/producto_ssd.jpg"foto producto 3" class="w-100 img-thumbail">
-            <figcaption> SSD Kingston 500gb</figcaption>
-            <p class="price">$10.000,00</p>
-            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
-          </figure> 
-          <figure class="col-sm-12 col-md-6 col-lg-3"> 
-            <img src="img/producto_gabinete.jpg" alt="foto producto 3" class="w-100 img-thumbail">
-            <figcaption> Gabinete Xpg</figcaption>
-            <p class="price">$20.000,00</p>
-            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
-          </figure>
-          <figure class="col-sm-12 col-md-6 col-lg-3"> 
-            <img src="img/producto_mother.jpg" alt="foto producto 3" class="w-100 img-thumbail">
-            <figcaption> Motherboard rog</figcaption>
-            <p class="price">$50.000,00</p>
-            <a href="#" class="btn btn-azul nb-2 w-100">Saber mas</a>
-          </figure> 
-        </div>  
-      </div> <!-- ends productos-->
-     
-     <!-- formulario-->
-      <section class="py-4 bg-azul">
-        <div class="container-fluid">
-           <div class="row">
-            <article class="col-sm-12 col-md-12 col-lg-8">
-              <form>
-                <div class="mb-3">
-                  <div id="emailHelp" class="form-text">Dejanos tu mail para recibir las mejores ofertas</div>
-                  <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Nombre</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </article>
-           </div>
+    <main id="productos">
+      <h1>Productos</h1>
+      <div class="container-fluid py-3 conte_parent">
+        <div class="conte">
+          <div class="card astroa50">
+                  <img src="img/producto_astroa50.jpg" alt="foto producto 1" class="w-100 img-thumbail" width="250px" height="350px" >
+              </div>
+              <div class="informacion">
+                 <h1>Astro a50</h1>
+                 <a href="#" class="btn btn-azul nb-2 w-100 saberMas">Saber mas</a>
+              </div>
+              <div class="precio">
+                <div class="box-precio">
+                  <span class="precio1"><strike>$40.000,00</strike></span>
+                  <span class="precio2">$39.000,00</span>
+                </div> 
+                <span class="shopping"><i class="fas fa-cart-plus"></i></span>
+              </div>
         </div>
-     </section>
-<!-- ends formulario-->
+        <div class="conte">
+          <div class="card gabinete-gamer">
+                  <img src="img/producto_gabinete.jpg" alt="foto producto 1" class="w-100 img-thumbail" width="250px" height="350px" >
+              </div>
+              <div class="informacion">
+                 <h1>Gabinete gamer</h1>
+                 <a href="#" class="btn btn-azul nb-2 w-100 saberMas">Saber mas</a>
+              </div>
+              <div class="precio">
+                <div class="box-precio">
+                  <span class="precio2">$29.000,00</span>
+                </div> 
+                <span class="shopping"><i class="fas fa-cart-plus"></i></span>
+              </div>
+        </div>
+        <div class="conte">
+          <div class="card tarjeta-grafica">
+                  <img src="img/producto_grafica.jpg" alt="foto producto 1" class="w-100 img-thumbail" width="250px" height="350px" >
+              </div>
+              <div class="informacion">
+                 <h1>Tarjeta grafica 3090</h1>
+                 <a href="#" class="btn btn-azul nb-2 w-100 saberMas">Saber mas</a>
+              </div>
+              <div class="precio">
+                <div class="box-precio">
+                  <span class="precio2">$290.000,00</span>
+                </div> 
+                <span class="shopping"><i class="fas fa-cart-plus"></i></span>
+              </div>
+        </div>
+        <div class="conte">
+          <div class="card mother">
+                  <img src="img/producto_mother.jpg" alt="foto producto 1" class="w-100 img-thumbail" width="250px" height="350px" >
+              </div>
+              <div class="informacion">
+                 <h1>Mother Roug</h1>
+                 <a href="#" class="btn btn-azul nb-2 w-100 saberMas">Saber mas</a>
+              </div>
+              <div class="precio">
+                <div class="box-precio">
+                  <span class="precio2">$20.000,00</span>
+                </div> 
+                <span class="shopping"><i class="fas fa-cart-plus"></i></span>
+              </div>
+        </div>
+        <div class="conte">
+          <div class="card procesador">
+                  <img src="img/producto_procesador.jpg" alt="foto producto 1" class="w-100 img-thumbail" width="250px" height="350px" >
+              </div>
+              <div class="informacion">
+                 <h1>Procesador Ryzen 9 5900x</h1>
+                 <a href="#" class="btn btn-azul nb-2 w-100 saberMas">Saber mas</a>
+              </div>
+              <div class="precio">
+                <div class="box-precio">
+                  <span class="precio2">$70.000,00</span>
+                </div> 
+                <span class="shopping"><i class="fas fa-cart-plus"></i></span>
+              </div>
+        </div>
+        <div class="conte">
+          <div class="card disco-ssd">
+                  <img src="img/producto_ssd.jpg" alt="foto producto 1" class="w-100 img-thumbail" width="250px" height="350px" >
+              </div>
+              <div class="informacion">
+                 <h1>Ssd 500gb Kingston</h1>
+                 <a href="#" class="btn btn-azul nb-2 w-100 saberMas">Saber mas</a>
+              </div>
+              <div class="precio">
+                <div class="box-precio">
+                  <span class="precio2">$9.000,00</span>
+                </div> 
+                <span class="shopping"><i class="fas fa-cart-plus"></i></span>
+              </div>
+        </div>
+        <div class="conte">
+          <div class="card mouse">
+                  <img src="img/producto_mouse.jpg" alt="foto producto 1" class="w-100 img-thumbail" width="250px" height="350px" >
+              </div>
+              <div class="informacion">
+                 <h1>Mouse Viper Ultimate Charging Dock Wireless Black Razer</h1>
+                 <a href="#" class="btn btn-azul nb-2 w-100 saberMas">Saber mas</a>
+              </div>
+              <div class="precio">
+                <div class="box-precio">
+                  <span class="precio2">$30.000,00</span>
+                </div> 
+                <span class="shopping"><i class="fas fa-cart-plus"></i></span>
+              </div>
+        </div>
+      </div> <!-- ends productos-->
     </main>
+     <!-- formulario-->
+     <section class="py-4 bg-azul">
+      <div class="container-fluid">
+         <div class="row">
+          <article class="col-sm-12 col-md-12 col-lg-8">
+            <form>
+              <div class="mb-3">
+                <div id="emailHelp" class="form-text">Dejanos tu mail para recibir las mejores ofertas</div>
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </article>
+         </div>
+      </div>
+   </section>
+<!-- ends formulario-->    
 
      <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -182,7 +248,7 @@
         </div> 
         <div class="card border-dark mb-3 mapa" style="max-width: 18rem;">
           <div class="card-header">Donde estamos?</div>
-          <div class="card-body text-dark">
+          <div class="card-body text-dark tamaño-mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0782380427413!2d-58.37629758419382!3d-34.60218306492499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacce552a111%3A0x95df23451e1e51fd!2sSan%20Mart%C3%ADn%20500%2C%20C1054%20CABA!5e0!3m2!1ses-419!2sar!4v1655505315710!5m2!1ses-419!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
       </div>   
